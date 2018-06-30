@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     while(argc)
         printf("%s\n",argv[--argc]);
 
+    printf("argv[0][0] is %c\n",argv[0][0]);
     printf("argv[0][1] is %c\n",argv[0][1]);
     printf("argv[0][2] is %c\n",argv[0][2]);
     printf("argv[0][3] is %c\n",argv[0][3]);
@@ -22,6 +23,7 @@ int main(int argc, char *argv[])
 运行结果```
 1
 ./demo3
+argv[0][1] is .
 argv[0][1] is /
 argv[0][2] is d
 argv[0][3] is e
