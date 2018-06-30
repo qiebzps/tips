@@ -1,7 +1,8 @@
 # argc argv
 ARGc和ARGv中的ARG指的是"参数"（外语：ARGuments, argument counter 和 argument vector ）
 
-例子```
+例子
+```
 #include <stdio.h>
 
 int main(int argc, char *argv[])
@@ -19,7 +20,8 @@ int main(int argc, char *argv[])
 }
 
 ```
-运行结果```
+运行结果
+```
 1
 ./demo3
 argv[0][1] is /
